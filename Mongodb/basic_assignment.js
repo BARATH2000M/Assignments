@@ -151,3 +151,5 @@ db.movies.insertMany([{title:"Fight Club", writer: "Chuck Palahniuko", year: 199
 
     8)find all comments belonging to the post "Reports a bug in your code"
 
+            db.posts.find({title:"Reports a bug in your code"})
+            db.comments.find({post:ObjectId("6204c9f86dae5ee449482f08")})
