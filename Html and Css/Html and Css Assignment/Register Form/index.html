@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+<!-- head - Googlefonts link -->
+
+<div id="outside">
+    <form id="survey-form" action="/my-handling-form-page" method="post">
+      <h1 id="title">Covid-19 Vaccination Survey Form</h1>
+      
+      <!-- ------------------Personal Details---------------------------- -->
+      <fieldset>
+        <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+        <legend>Personal Details</legend>
+        <!-- formally describes the purpose of the fieldset it is included inside. -->
+        <div>
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+        <div>
+          <label for="address-label">Address:</label>
+          <input type="Address" id="address" name="Address" placeholder="Enter address here">   </div>
+        <div>
+          <label id="email-label" for="Email">Email:</label>
+          <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+        <div>
+          <label id="number-label" for="phone">Phone Number:</label>
+          <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9">  </div>
+       
+    
+        <!-- ------------------Radio Buttons-------------------------------- -->
+        <div>
+          <label for="Gender">Gender</label>
+          <p>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+          </p>
+        </div>
+        <label for="date-label">Date of Proposed Outing:</label>
+        <input type="date" name="bday">
+      
+      </fieldset>
+      
+      <!-- ------------------Checkboxes-------------------------------- -->
+      <fieldset>
+        <label for="Checkbox">Are you experiencing any of following symptomps?</label>
+        <p>
+          <input type="checkbox" name="Chills" value="Chills">Chills<br>
+          <input type="checkbox" name="Fever" value="Fever"> Fever<br>
+          <input type="checkbox" name="Sore throat" value="Sore throat"> Sore throat<br>
+          <input type="checkbox" name="Breathing Shortness" value="Breathing Shortness" checked>Breathing shortness<br>
+          <input type="checkbox" name="Cough" value="Cough" checked> Cough<br>
+          <input type="checkbox" name="No Symptomps" value="No Symptomps" checked>No Symptomps<br>
+        </p>
+     
+      <div>
+        <label for="Contact with Covid patients">Have You Been in contacct with anyone who has been diagnosed with Covid-19</label>
+        <p>
+          <input type="radio"  value="yes" checked> Yes<br>
+          <input type="radio"  value="no"> No
+          
+        </p>
+      </div> 
+    </fieldset>
+      <!-- -----------------Dropdown menus--------------------------------- -->
+      
+      <fieldset>
+        <div>
+          <label for="vaccine">Vaccine:</label>
+          <select id="dropdown">
+      <option value="Covaxin">Covaxin</option>
+      <option value="CoviShield">CoviShield</option>
+      <option value="none">Didn't took any</option>
+      </select>
+    
+          <label for="Dose">Dosage:</label>
+          <select id="dropdown2">
+      <option value="1">1st Dose</option>
+      <option value="2">2nd Dose</option>
+      <option value="no">None</option>  
+      </select>
+        </div>
+      </fieldset>
+    
+      <!-- --------------------Text Areas------------------------------ -->
+      
+      <fieldset>
+        
+        <p>Upload The Vaccine Certifiate here:
+          <button>Attach Files</button></p>
+      </fieldset>
+    
+      <div id="submitbutton">
+        <button type="submit" id="submit">Send your application</button>   </div>
+    
+    </form>
+      </div>
+    
+    <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
+    
+</body>
+</html>

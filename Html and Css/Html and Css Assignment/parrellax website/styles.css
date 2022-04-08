@@ -1,0 +1,67 @@
+html,body{
+    height:50%;
+    margin:0;
+    margin-bottom: 50%;
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("resources/cricket.jpeg");
+    background-attachment: fixed;
+    background-size:cover;
+    min-width: none;
+    
+    min-height: 100%;
+}
+
+
+.A{
+    min-height: 100%;
+    
+    color: rgb(255, 255, 255);
+    
+    margin-left: 520px;
+    
+    text-decoration: underline;
+
+    margin-top: 1%;
+
+ 
+    
+}
+.C{
+    background-image: url(resources/dhoni.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    text-decoration: underline;
+}
+.E{
+    background-image: url(resources/virat.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+.G{
+    background-image: url(resources/Rohit-Sharma.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+
+.I{
+    background-image: url("LionelMessi.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    min-width: none;
+}
+   
+.B,.D,.F,.H,.J{
+    color: white;
+    background-attachment:scroll;
+    position: absolute;
+    text-align: justify;
+    background-color: rgb(255, 60, 122);
+    text-align: center;
+    
+}
