@@ -1,0 +1,7 @@
+table, table tr th, tr td{
+    border: 1px solid green;
+}
+th{
+    background-color: green;
+    color: white;
+}

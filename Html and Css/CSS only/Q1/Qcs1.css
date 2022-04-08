@@ -1,0 +1,15 @@
+h1{
+    border: 20px solid cornflowerblue;
+    background-color:cornflowerblue;
+    margin: 0%;
+}
+p{
+   
+    background-color:lightgray;  
+    line-height: 200%;
+    margin:0%;
+}
+.tt{
+    background-color:skyblue;  
+    margin:0%;
+}
